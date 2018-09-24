@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "923433916612",
+    "firebase_url": "https://whicone-e1d03.firebaseio.com",
+    "project_id": "whicone-e1d03",
+    "storage_bucket": "whicone-e1d03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923433916612:android:bba89fb8b91b69ca",
+        "android_client_info": {
+          "package_name": "com.example.ahmet.mygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923433916612-lq5hn1l0mh4hdku0n2jnqqfsf3b07v4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWOYDNia3brjfrP5eQtZI4DKAK8m80tUc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ActionBarWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackround"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SCORE :"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CORRECT :"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="WRONG : "
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/textView1" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <ImageButton
+            android:id="@+id/btn_dialog_open_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorwhite"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/btnagainstart"
+            android:src="@drawable/male"
+            android:background="@drawable/profile_button"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/restart"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/border_radius_facebook"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:id="@+id/btnagainstart"
+           />
+        <ImageButton
+            android:id="@+id/btnlogout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logout"
+            android:background="@drawable/border_radius_login"
+            android:textColor="@color/colorwhite"
+           android:layout_toRightOf="@+id/btnagainstart"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

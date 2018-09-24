@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:id="@+id/tablo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        >
+
+        <TextView
+            android:id="@+id/txt_profile_score"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="@drawable/highscore"
+            android:text="Score : 2017"
+            android:gravity="center"
+            android:textColor="#ff8000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/txt_profile_seviye"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Level 10"
+            android:gravity="center"
+            android:textColor="@color/colorgreen"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="@drawable/highscore"/>
+
+        <ImageView
+            android:id="@+id/img_profile_brain"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/brain3"/>
+
+    </LinearLayout>
+
+</LinearLayout>

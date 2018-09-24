@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackround"
+    android:paddingTop="25dp">
+
+    <LinearLayout
+    android:id="@+id/sorulayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/profile_layout"
+    android:weightSum="4"
+    android:padding="10dp" 
+    android:layout_marginTop="40dp">
+
+    <TextView
+    android:id="@+id/txt_leftbox"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_weight="2"
+    android:background="@drawable/nboard"
+    android:gravity="center"
+    android:text="25-4"
+    android:textColor="@android:color/black"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_marginRight="10dp"
+    android:visibility="gone"/>
+
+    <TextView
+    android:id="@+id/txt_rightbox"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:background="@drawable/nboard"
+    android:layout_weight="2"
+    android:text="11*2"
+    android:textColor="@android:color/black"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:layout_marginLeft="10dp"
+    android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/txt_question"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:text="WHICH ONE IS BIGGER?"
+    android:textStyle="bold"
+    android:textColor="@color/colorwhite"
+    android:textSize="40sp"
+    android:gravity="center"
+    android:layout_weight="2"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_below="@+id/sorulayout"
+    android:visibility="gone"
+    />
+
+    <LinearLayout
+    android:id="@+id/leftrightlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/txt_question"
+    android:layout_marginTop="20dp">
+        
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        
+        
+        <ImageView
+            android:id="@+id/img_intro_left_arrow"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/leftarrow"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/txt_left"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:text="LEFT"
+            android:textColor="@color/colorred"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:visibility="gone"/>
+        
+    </LinearLayout>
+        <TextView
+            android:id="@+id/txt_or"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:text="or"
+            android:textColor="@color/colorwhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="70sp"
+            android:visibility="gone"/>
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_intro_right_arrow"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rightarrow"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/txt_right"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:text="RIGHT"
+            android:textColor="@color/colorred"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:text="skip >"
+        android:textSize="25dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

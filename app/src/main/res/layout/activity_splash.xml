@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="600dp">
+                <ImageView
+                    android:id="@+id/img_splash"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/img_plus"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/plus"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="25dp"
+
+                    />
+                <ImageView
+                    android:id="@+id/img_eksi"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/eksi"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginBottom="25dp"
+                    />
+                <ImageView
+                    android:id="@+id/img_carpi"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/carpi"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="25dp"
+                    />
+                <ImageView
+                    android:id="@+id/img_esittir"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/esittir"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                   />
+
+                <TextView
+                    android:id="@+id/txt_splash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="100dp"
+                    android:gravity="center"
+                    android:text="WhichOne"
+                    android:textColor="@color/colorred"
+                    android:textSize="70sp"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackround"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/layout_icon"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+           android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/layout_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:textSize="25dp"
+            android:textColorHint="@color/colorred"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_radius_login"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textSize="25dp"
+            android:text="LOGİN"
+            android:textColor="@color/colorwhite"
+            android:textAllCaps="false"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_login_or"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="or"-->
+            <!--android:textColor="@color/colorred"-->
+            <!--android:textSize="30sp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnLogin_facebook"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/border_radius_facebook"-->
+            <!--android:paddingLeft="25dp"-->
+            <!--android:paddingRight="25dp"-->
+            <!--android:textSize="25dp"-->
+            <!--android:text="LOGİN WİTH FACEBOOK"-->
+            <!--android:textColor="@color/colorwhite"-->
+            <!--android:textAllCaps="false"-->
+            <!--/>-->
+
+    </LinearLayout>
+
+    <!-- author info -->
+
+
+
+</RelativeLayout>
